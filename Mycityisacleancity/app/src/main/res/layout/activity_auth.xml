@@ -48,12 +48,13 @@
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textStyle="bold"
-        android:backgroundTint="#DBB000"
         android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:text="Войти"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
-        android:textColor="#000000"
-        android:text="Войти" />
+        android:textStyle="bold"
+        app:cornerRadius="12dp" />
 
     <TextView
         android:id="@+id/link_to_reg"

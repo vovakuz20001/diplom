@@ -1,4 +1,4 @@
 package com.example.mycityisacleancity
 
-class User (val login: String, val pass: String) {
+class User (val login: String, val pass: String, val scores: Int) {
 }

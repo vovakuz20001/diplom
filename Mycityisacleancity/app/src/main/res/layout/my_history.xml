@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_history_address"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heading" />
+
+        <TextView
+            android:id="@+id/item_history_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:text="type activity"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/item_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFCC00"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="Посмотреть"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_history_point"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="points awarded"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+
+</LinearLayout>
